@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная страница</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+<body>
+     <div class="hero">
+        <div class="hero_content">
+            <div class="hero_c">
+                <div class="header">
+                    <div class="logo">
+                        <a href=""><img src="img/Logo_TSPK__big_white 1.png" alt="">
+                        </a>
+                    </div>
+    
+                    <div class="menu_item">
+                        <ul>
+                            <li><a href="/">Главная</a></li>
+                            <li><a href="#lern">Список занятий</a></li>
+                        </ul>
+                    </div>
+                </div>
+                 
+                   
+                <div class="hero_cont_txt">
+                    <h1 class="hero_txt">Нынче никто не может себе позволить - заглушка</h1>
+                    <p class="hero_prg">В целом, конечно, постоянное информационно-пропагандистское обеспечение нашей деятельности предопределяет высокую востребованность вывода текущих активов.</p>
+
+                    <div class="btn_hero">
+                        <button data-bs-toggle="modal" data-bs-target="#staticBackdrop">узнать подробнее</button>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+     </div>
+
+     <div class="list_lern_cont" id="lern">
+        <h1 class="title_lern_center">Список занятий</h1>
+
+
+        <div class="cards_lern_wrapper">
+            <div class="card_lrn">
+                <div class="img_card_lern">
+                    <img src="img/volebol.png" alt="volebol">
+                </div>
+
+
+                <div class="card_lern_content">
+                    <h1>Волейбол</h1>
+
+                    <div class="btn_card_lern">
+                        <a href="volebol.html">подробнее</a>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="card_lrn">
+                <div class="img_card_lern">
+                    <img src="img/volebol.png" alt="volebol">
+                </div>
+
+
+                <div class="card_lern_content">
+                    <h1>Футбол</h1>
+
+                    <div class="btn_card_lern">
+                        <a href="volebol.html">подробнее</a>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="card_lrn">
+                <div class="img_card_lern">
+                    <img src="img/volebol.png" alt="volebol">
+                </div>
+
+
+                <div class="card_lern_content">
+                    <h1>Йога</h1>
+
+                    <div class="btn_card_lern">
+                        <a href="volebol.html">подробнее</a>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="card_lrn">
+                <div class="img_card_lern">
+                    <img src="img/volebol.png" alt="volebol">
+                </div>
+
+
+                <div class="card_lern_content">
+                    <h1>Фитнес</h1>
+
+                    <div class="btn_card_lern">
+                        <a href="volebol.html">подробнее</a>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="card_lrn">
+                <div class="img_card_lern">
+                    <img src="img/volebol.png" alt="volebol">
+                </div>
+
+
+                <div class="card_lern_content">
+                    <h1>Баскетбол</h1>
+
+                    <div class="btn_card_lern">
+                        <a href="volebol.html">подробнее</a>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="card_lrn">
+                <div class="img_card_lern">
+                    <img src="img/volebol.png" alt="volebol">
+                </div>
+
+
+                <div class="card_lern_content">
+                    <h1>Гандбол</h1>
+
+                    <div class="btn_card_lern">
+                        <a href="volebol.html">подробнее</a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+     </div>
+
+
+     <footer class="footer">
+        <div class="footer_content">
+            <div class="logo">
+                <a href=""><img src="img/Logo_TSPK__big_white 1.png" alt=""></a>
+            </div>
+
+
+            <div class="menu_item menu_item_footer">
+                <ul>
+                    <li><a href="/">Главная</a></li>
+                    <li><a href="#lern">Список занятий</a></li>
+                </ul>
+            </div>
+
+            <div class="btn_hero">
+                <button data-bs-toggle="modal" data-bs-target="#staticBackdrop">Оставить заявку</button>
+            </div>
+        </div>
+     </footer>
+
+
+     <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="staticBackdropLabel">Оставить заявку</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form method="post" id="tg">
+                    <div class="mb-3">
+                      <input type="text" class="form-control" name="username" placeholder="Введите ФИО">
+                    </div>
+
+                    <div class="mb-3">
+                        <select class="form-select" aria-label="Default select example" name="group">
+                            <option selected>Группа обучения</option>
+                            <option value="ИСИП - 32">ИСИП - 32</option>
+                            <option value="ИСИП - 31">ИСИП-31</option>
+                            <option value="КС -11">КС -11</option>
+                          </select>
+                    </div>
+                    <div class="mb-3">
+                        <select class="form-select" aria-label="Default select example" name="list_sport">
+                            <option selected>Вид спорта</option>
+                            <option value="Волейбол">Волейбол</option>
+                            <option value="Футбол">Футбол</option>
+                            <option value="Йога">Йога</option>
+                            <option value="Футбол">Фитнес</option>
+                            <option value="Гандбол">Гандбол</option>
+                          </select>
+                    </div>
+            </div>
+            <div class="modal-footer">
+              <button type="submit" class="btn btn-primary">Отправить</button>
+            </div>
+        </form>
+          </div>
+        </div>
+      </div>
+
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    
+    <script>
+        const TOKEN = "5931859113:AAE9lPPHqIdJwrT0Za7dyngnbdZwELiXiSs";
+        const CHAT_ID = "-1001651268763";
+        const URI_API = `https://api.telegram.org/bot${ TOKEN }/sendMessage`;
+        
+        
+        
+        
+        document.getElementById('tg').addEventListener('submit', function(e){
+            e.preventDefault();
+            
+            let message = `<b>Запись на дополнительные занятия</b>\n`;
+            message += `<b>Отправитель:</b> ${ this.username.value }\n`;
+            message += `<b>Группа:</b> ${ this.group.value }\n`;
+             message += `<b>Вид спорта:</b> ${ this.list_sport.value }`;
+             
+            axios.post(URI_API, {
+                chat_id: CHAT_ID,
+                parse_mode: 'html',
+                text:message
+            })
+        })
+    </script>
+</body>
+</html>
